@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Forms
    ========================================================================== */
-   @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&family=Raleway:ital,wght@1,600&display=swap');
+   
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
@@ -196,7 +196,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  margin: 0, auto;
+  margin: 0;
   background-color: #F5F5F5;
 }
 
@@ -208,6 +208,8 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&family=Raleway:ital,wght@1,600&display=swap');
 
 h1 {
 	background-color:#B0B0B0;
