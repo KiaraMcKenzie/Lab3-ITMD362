@@ -203,7 +203,7 @@ html {
 label {
   display: block;
   padding: 0.5em;
-  font-size: 
+ 
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -220,6 +220,7 @@ h1 {
 }
 #content{
 	padding:0.7em;
+
 	
 	
 }
@@ -228,9 +229,27 @@ p {
 	font-size: 1.15em;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Archivo Narrow', Tahoma, sans-serif;
 	
 
+	
+	
+}
+#input-email{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	padding: 1em;
+	text-align: left;
+}
+
+form li{
+	text-align: left;
+	padding: 1em;
+	
+}
+#input-age-verification{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	padding: 1em;
+	text-align: left;
 	
 	
 }
