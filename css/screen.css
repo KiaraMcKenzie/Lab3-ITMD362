@@ -201,8 +201,8 @@ html {
 }
 
 label {
-  display: block;
-  padding: 0.5em;
+  display: inline;
+  padding: 15px 10px;
  
 }
 
@@ -210,7 +210,7 @@ label {
 
 h1 {
 	background-color:#B0B0B0;
-	padding: 1.2em;
+	padding: 25px;
 	font-size: 1.5em;
 	text-align: center;
 	font-style: italic;
@@ -219,7 +219,7 @@ h1 {
 	background-image: linear-gradient(to bottom right, gray, #C0C0C0);
 }
 #content{
-	padding:0.7em;
+	padding: 10px 5px 15px;
 
 	
 	
@@ -227,8 +227,7 @@ h1 {
 p {
 	text-align: center;
 	font-size: 1.15em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: 15px 5px; 
 	font-family: 'Archivo Narrow', Tahoma, sans-serif;
 	
 
@@ -237,19 +236,23 @@ p {
 }
 #input-email{
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	padding: 1em;
+	padding: 10px 5px;
 	text-align: left;
 }
 
 form li{
 	text-align: left;
-	padding: 1em;
+	padding: 10px;
 	
 }
 #input-age-verification{
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	padding: 1em;
-	text-align: left;
-	
-	
+	padding: 10px;
+	text-align: left;	
+}
+
+input {
+	padding: 10px;
+	background-color: #DCDCDC;
+	border: none;
 }
