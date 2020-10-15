@@ -203,6 +203,7 @@ html {
 label {
   display: inline;
   padding: 15px 10px;
+  
  
 }
 
@@ -236,19 +237,19 @@ p {
 }
 #input-email{
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	padding: 10px 5px;
-	text-align: left;
+	padding: 15px 5px;
+	text-align: center;
 }
 
 form li{
-	text-align: left;
-	padding: 10px;
+	text-align: center;
+	padding: 15px;
 	
 }
 #input-age-verification{
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	padding: 10px;
-	text-align: left;	
+	padding: 25px;
+	text-align: center;	
 }
 
 input {
